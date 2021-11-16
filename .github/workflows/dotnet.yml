@@ -16,7 +16,7 @@ jobs:
       working-directory: ./Calculator
       run: dotnet build --no-restore
     - name: Test
-      working-directory: ./test
+      working-directory: ./test/Calculator.Tests
       run: dotnet test --no-build --verbosity normal --collect:"XPlat Code Coverage"
     - name: Codecov upload
       uses: codecov/codecov-action@v2
