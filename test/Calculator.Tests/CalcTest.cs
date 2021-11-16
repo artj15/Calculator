@@ -28,7 +28,7 @@ namespace Calculator.Tests
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
-                                 "------------------------\n\r\n" +
+                                 "------------------------\n\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
                                  "Choose an option from the following list:\r\n\t" +
@@ -49,7 +49,7 @@ namespace Calculator.Tests
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
-                                 "------------------------\n\r\n" +
+                                 "------------------------\n\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
                                  "Choose an option from the following list:\r\n\t" +
@@ -69,7 +69,7 @@ namespace Calculator.Tests
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
-                                 "------------------------\n\r\n" +
+                                 "------------------------\n\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
                                  "Choose an option from the following list:\r\n\t" +
@@ -89,7 +89,7 @@ namespace Calculator.Tests
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
-                                 "------------------------\n\r\n" +
+                                 "------------------------\n\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
                                  "Choose an option from the following list:\r\n\t" +
