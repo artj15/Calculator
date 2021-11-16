@@ -1,8 +1,6 @@
 using System;
 using System.IO;
 using Xunit;
-using System.Threading;
-using System.Globalization;
 
 namespace Calculator.Tests
 {
@@ -29,7 +27,7 @@ namespace Calculator.Tests
             var userIn = new StringReader("12" + Environment.NewLine + '3' + Environment.NewLine + 'a' + Environment.NewLine + 'b');
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
-            var expectedOutput = "Console Calculator in C#\r\r\n" +
+            var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\r\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
@@ -50,7 +48,7 @@ namespace Calculator.Tests
             var userIn = new StringReader("12" + Environment.NewLine + '3' + Environment.NewLine + 's' + Environment.NewLine + 'b');
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
-            var expectedOutput = "Console Calculator in C#\r\r\n" +
+            var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\r\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
@@ -70,7 +68,7 @@ namespace Calculator.Tests
             var userIn = new StringReader("12" + Environment.NewLine + '3' + Environment.NewLine + 'm' + Environment.NewLine + 'b');
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
-            var expectedOutput = "Console Calculator in C#\r\r\n" +
+            var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\r\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
@@ -90,7 +88,7 @@ namespace Calculator.Tests
             var userIn = new StringReader("12" + Environment.NewLine + '3' + Environment.NewLine + 'd' + Environment.NewLine + 'b');
             Console.SetIn(userIn);
             Calc.Main(new string[] { });
-            var expectedOutput = "Console Calculator in C#\r\r\n" +
+            var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\r\n" +
                                  "Type a number, and then press Enter\r\n" +
                                  "Type another number, and then press Enter\r\n" +
