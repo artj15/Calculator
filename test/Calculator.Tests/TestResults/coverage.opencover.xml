@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!--This is a custom NCrunch file format-->
+<solution path="C:\Users\DMA\source\repos\Calculator\Calculator.sln">
+  <project name="Calculator" path="C:\Users\DMA\source\repos\Calculator\Calculator\Calculator.csproj">
+    <sourceFile name="Calc.cs" path="C:\Users\DMA\source\repos\Calculator\Calculator\Calc.cs">
+      <line number="8" coveringTests="5" />
+      <line number="11" coveringTests="4" />
+      <line number="12" coveringTests="4" />
+      <line number="15" coveringTests="4" />
+      <line number="16" coveringTests="4" />
+      <line number="19" coveringTests="4" />
+      <line number="20" coveringTests="4" />
+      <line number="23" coveringTests="4" />
+      <line number="24" coveringTests="4" />
+      <line number="27" coveringTests="4" />
+      <line number="28" coveringTests="4" />
+      <line number="29" coveringTests="4" />
+      <line number="30" coveringTests="4" />
+      <line number="31" coveringTests="4" />
+      <line number="32" coveringTests="4" />
+      <line number="35" coveringTests="4" />
+      <line number="38" coveringTests="1" />
+      <line number="39" coveringTests="1" />
+      <line number="41" coveringTests="1" />
+      <line number="42" coveringTests="1" />
+      <line number="44" coveringTests="1" />
+      <line number="45" coveringTests="1" />
+      <line number="47" coveringTests="1" />
+      <line number="48" coveringTests="1" />
+      <line number="53" coveringTests="4" />
+      <line number="55" coveringTests="2" />
+      <line number="56" coveringTests="2" />
+      <line number="57" coveringTests="2" />
+      <line number="58" coveringTests="2" />
+      <line number="61" coveringTests="2" />
+      <line number="62" coveringTests="2" />
+      <line number="63" coveringTests="2" />
+      <line number="64" coveringTests="2" />
+      <line number="66" coveringTests="2" />
+      <line number="67" coveringTests="2" />
+      <line number="68" coveringTests="2" />
+      <line number="69" coveringTests="2" />
+      <line number="71" coveringTests="2" />
+      <line number="72" coveringTests="2" />
+      <line number="73" coveringTests="2" />
+      <line number="74" coveringTests="2" />
+    </sourceFile>
+  </project>
+  <project name="Calculator.Tests" path="C:\Users\DMA\source\repos\Calculator\test\Calculator.Tests\Calculator.Tests.csproj">
+    <sourceFile name="CalcTest.cs" path="C:\Users\DMA\source\repos\Calculator\test\Calculator.Tests\CalcTest.cs">
+      <line number="12" coveringTests="1" />
+      <line number="13" coveringTests="1" />
+      <line number="14" coveringTests="1" />
+      <line number="15" coveringTests="1" />
+      <line number="16" coveringTests="1" />
+      <line number="17" coveringTests="1" />
+      <line number="18" coveringTests="1" />
+      <line number="19" coveringTests="1" />
+      <line number="20" coveringTests="1" />
+      <line number="21" coveringTests="1" />
+      <line number="25" coveringTests="1" />
+      <line number="26" coveringTests="1" />
+      <line number="27" coveringTests="1" />
+      <line number="28" coveringTests="1" />
+      <line number="29" coveringTests="1" />
+      <line number="30" coveringTests="1" />
+      <line number="31" coveringTests="1" />
+      <line number="41" coveringTests="1" />
+      <line number="42" coveringTests="1" />
+      <line number="46" coveringTests="1" />
+      <line number="47" coveringTests="1" />
+      <line number="48" coveringTests="1" />
+      <line number="49" coveringTests="1" />
+      <line number="50" coveringTests="1" />
+      <line number="51" coveringTests="1" />
+      <line number="52" coveringTests="1" />
+      <line number="62" coveringTests="1" />
+      <line number="64" coveringTests="1" />
+      <line number="67" coveringTests="1" />
+      <line number="68" coveringTests="1" />
+      <line number="69" coveringTests="1" />
+      <line number="70" coveringTests="1" />
+      <line number="71" coveringTests="1" />
+      <line number="72" coveringTests="1" />
+      <line number="73" coveringTests="1" />
+      <line number="83" coveringTests="1" />
+      <line number="85" coveringTests="1" />
+      <line number="88" coveringTests="1" />
+      <line number="89" coveringTests="1" />
+      <line number="90" coveringTests="1" />
+      <line number="91" coveringTests="1" />
+      <line number="92" coveringTests="1" />
+      <line number="93" coveringTests="1" />
+      <line number="94" coveringTests="1" />
+      <line number="104" coveringTests="1" />
+      <line number="106" coveringTests="1" />
+    </sourceFile>
+  </project>
+</solution>
