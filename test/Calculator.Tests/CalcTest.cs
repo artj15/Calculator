@@ -1,7 +1,7 @@
 using System;
 using System.IO;
-using Xunit;
 using System.Text.RegularExpressions;
+using Xunit;
 
 namespace Calculator.Tests
 {

@@ -6,7 +6,7 @@ namespace Calculator
     {
 
         public int num1 = 0; public int num2 = 0;
-       
+
         public static void Main(string[] args)
         {
             var mc = new Calc();

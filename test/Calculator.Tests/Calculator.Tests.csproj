@@ -23,4 +23,8 @@
     <ProjectReference Include="..\..\Calculator\Calculator.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="TestResults\" />
+  </ItemGroup>
+
 </Project>
