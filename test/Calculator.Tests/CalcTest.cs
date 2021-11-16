@@ -29,14 +29,14 @@ namespace Calculator.Tests
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\n" +
-                                 "Type a number, and then press Enter\r\n" +
-                                 "Type another number, and then press Enter\r\n" +
-                                 "Choose an option from the following list:\r\n\t" +
+                                 "Type a number, and then press Enter\n" +
+                                 "Type another number, and then press Enter\n" +
+                                 "Choose an option from the following list:\n\t" +
                                  "a - Add\r\n\t" +
                                  "s - Subtract\r\n\t" +
                                  "m - Multiply\r\n\t" +
                                  "d - Divide\r\n" +
-                                 "Your option? Your result: 12 + 3 = 15\r\n";
+                                 "Your option? Your result: 12 + 3 = 15\n";
             Assert.Equal(expectedOutput, stingWriter.ToString());
         }
 
@@ -50,14 +50,14 @@ namespace Calculator.Tests
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\n" +
-                                 "Type a number, and then press Enter\r\n" +
-                                 "Type another number, and then press Enter\r\n" +
-                                 "Choose an option from the following list:\r\n\t" +
+                                 "Type a number, and then press Enter\n" +
+                                 "Type another number, and then press Enter\n" +
+                                 "Choose an option from the following list:\n\t" +
                                  "a - Add\r\n\t" +
                                  "s - Subtract\r\n\t" +
                                  "m - Multiply\r\n\t" +
                                  "d - Divide\r\n" +
-                                 "Your option? Your result: 12 - 3 = 9\r\n";
+                                 "Your option? Your result: 12 - 3 = 9\n";
             Assert.Equal(expectedOutput, stingWriter.ToString());
         }
         [Fact]
@@ -70,14 +70,14 @@ namespace Calculator.Tests
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\n" +
-                                 "Type a number, and then press Enter\r\n" +
-                                 "Type another number, and then press Enter\r\n" +
-                                 "Choose an option from the following list:\r\n\t" +
+                                 "Type a number, and then press Enter\n" +
+                                 "Type another number, and then press Enter\n" +
+                                 "Choose an option from the following list:\n\t" +
                                  "a - Add\r\n\t" +
                                  "s - Subtract\r\n\t" +
                                  "m - Multiply\r\n\t" +
                                  "d - Divide\r\n" +
-                                 "Your option? Your result: 12 * 3 = 36\r\n";
+                                 "Your option? Your result: 12 * 3 = 36\n";
             Assert.Equal(expectedOutput, stingWriter.ToString());
         }
         [Fact]
@@ -90,14 +90,14 @@ namespace Calculator.Tests
             Calc.Main(new string[] { });
             var expectedOutput = "Console Calculator in C#\r\n" +
                                  "------------------------\n\n" +
-                                 "Type a number, and then press Enter\r\n" +
-                                 "Type another number, and then press Enter\r\n" +
-                                 "Choose an option from the following list:\r\n\t" +
+                                 "Type a number, and then press Enter\n" +
+                                 "Type another number, and then press Enter\n" +
+                                 "Choose an option from the following list:\n\t" +
                                  "a - Add\r\n\t" +
                                  "s - Subtract\r\n\t" +
                                  "m - Multiply\r\n\t" +
                                  "d - Divide\r\n" +
-                                 "Your option? Your result: 12 / 3 = 4\r\n";
+                                 "Your option? Your result: 12 / 3 = 4\n";
             Assert.Equal(expectedOutput, stingWriter.ToString());
         }
     }
